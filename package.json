@@ -1,0 +1,17 @@
+{
+  "name": "@snilcy/stylelint",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "stylelint": "^16.9.0",
+    "stylelint-config-clean-order": "^6.1.0",
+    "stylelint-config-recess-order": "^5.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0"
+  },
+  "dependencies": {
+    "eslint": "^9.10.0"
+  },
+  "exports": "./stylelint.config.js"
+}
