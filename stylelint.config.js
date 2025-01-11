@@ -38,5 +38,36 @@ export default {
         unspecified: 'bottomAlphabetical',
       },
     ],
+
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: [
+          'after-same-name',
+          'inside-block',
+          'blockless-after-same-name-blockless',
+          'blockless-after-blockless',
+          'first-nested',
+        ],
+        ignore: [
+          'after-comment',
+          'first-nested',
+          'inside-block',
+          'blockless-after-same-name-blockless',
+          'blockless-after-blockless',
+        ],
+        ignoreAtRules: ['else'],
+      },
+    ],
+
+    'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
+    'scss/at-if-closing-brace-space-after': 'always-intermediate',
+
+    '@stylistic/block-closing-brace-newline-after': [
+      'always',
+      {
+        ignoreAtRules: ['if', 'else'],
+      },
+    ],
   },
 }
