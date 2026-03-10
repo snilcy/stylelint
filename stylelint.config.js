@@ -15,6 +15,7 @@ export default {
     '@stylistic/stylelint-config',
     // 'stylelint-config-recess-order',
     'stylelint-config-clean-order',
+ 		"@dreamsicle.io/stylelint-config-tailwindcss",
   ],
   // plugins: ['stylelint-order'],
   rules: {
